@@ -1,73 +1,62 @@
-*
-{
+	* {
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
 }
 
-div
-{
+div {
 	position: relative;
 	z-index: 2;
 }
 
-body
-{
+body {
 	color: #FFFFFF;
 	background-color: black;
 	font-family: Sans-Serif;
 }
 
-#definition
-{
+#definition {
 	font-family: "Times New Roman", Times, serif;
 }
 
-.footer
-{
+.footer {
 	width: 450px;
 	text-align: center;
 	display: block;
-	margin:15px auto 30px auto;
-  font-size:0.8em;
+	margin: 15px auto 30px auto;
+	font-size: 0.8em;
 	color: #F5F5F5;
 }
 
-.footer a
-{
+.footer a {
 	text-decoration: none;
 	color: #959190;
 }
 
-.def-box
-{
+.def-box {
 	position: relative;
-	margin:8% auto auto auto;
-	width: 450;
-	padding:40px 50px;
+	margin: 8% auto auto auto;
+	width: 450px;
+	padding: 40px 50px;
 	display: table;
 }
 
-
-.def-text
-{
-    text-align:left;
-    width:450px;
-    height:auto;
-    clear:both;
-    font-weight:500;
-    font-size:1.75em;
+.def-text {
+	text-align: left;
+	width: 450px;
+	height: auto;
+	clear: both;
+	font-weight: 500;
+	font-size: 1.75em;
 }
 
-.buttons
-{
+.buttons {
 	width: 450px;
-	margin: auto;
+	/*margin: auto;*/
 	display: block;
 }
 
-.button
-{
+.button {
 	height: 38px;
 	border: none;
 	border-radius: 3px;
@@ -81,13 +70,11 @@ body
 	cursor: pointer;
 }
 
-.button:hover
-{
+.button:hover {
 	opacity: 0.9;
 }
 
-#tweet-def
-{
+#tweet-def {
 	float: left;
 	padding: 0px;
 	padding-top: 8px;
@@ -98,7 +85,25 @@ body
 	width: 40px;
 }
 
-#new-def
-{
+#new-def {
 	float: right;
+}
+
+@media only screen and (max-width: 560px) {
+	/* For mobile phones: */
+	.footer {
+		width: 80%;
+	}
+	
+ .def-box {
+		width: 80%;
+	}
+	.def-text {
+		width: 100%;
+		font-size: 1.5em;
+	}
+	
+	.buttons {
+		width: 100%;
+	}
 }
