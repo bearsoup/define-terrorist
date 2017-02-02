@@ -1,0 +1,104 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+div
+{
+	position: relative;
+	z-index: 2;
+}
+
+body
+{
+	color: #FFFFFF;
+	background-color: black;
+	font-family: Sans-Serif;
+}
+
+#definition
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.footer
+{
+	width: 450px;
+	text-align: center;
+	display: block;
+	margin:15px auto 30px auto;
+  font-size:0.8em;
+	color: #F5F5F5;
+}
+
+.footer a
+{
+	text-decoration: none;
+	color: #959190;
+}
+
+.def-box
+{
+	position: relative;
+	margin:8% auto auto auto;
+	width: 450;
+	padding:40px 50px;
+	display: table;
+}
+
+
+.def-text
+{
+    text-align:left;
+    width:450px;
+    height:auto;
+    clear:both;
+    font-weight:500;
+    font-size:1.75em;
+}
+
+.buttons
+{
+	width: 450px;
+	margin: auto;
+	display: block;
+}
+
+.button
+{
+	height: 38px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #959190;
+	outline: none;
+	font-size: 0.85em;
+	padding: 8px 18px 6px 18px;
+	margin-top: 30px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.button:hover
+{
+	opacity: 0.9;
+}
+
+#tweet-def
+{
+	float: left;
+	padding: 0px;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 1.2em;
+	margin-right: 5px;
+	height: 30px;
+	width: 40px;
+}
+
+#new-def
+{
+	float: right;
+}

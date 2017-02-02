@@ -1,0 +1,41 @@
+{
+"<start>" : "<template>",
+
+"<template>" : "<person> who <method1> in the pursuit of <goal>. | <person> who <method2>, especially against <target>, in the pursuit of <goal>.[.5] | <person> who <method1> in the propagation of <goal>.[.25] | a person who <method1> in the pursuit of <goal>; esp. <person>.",
+
+"<person>" : "a <p1a> <p2a> | a <p1a> <p2b> | a <p1a> <p2c> | a <p1b> <p2a> | a <p1b> <p2b> | a <p2a> | an <p2b> | a <p3a>-born <p2b> | a <p3a>-born <p3b>| a <p3a>-born <p3c> | an <p3c> | an <p3c> | an <p3c> with family in <p3d> | <p4> | an adherent or supporter of the Jacobins[.125]",
+
+"<p1a>" : "foreign | foreign-born | Muslim | bearded | hijab-wearing | turban-wearing | non-native-English-speaking",
+
+"<p1b>" : "black | white",
+
+"<p2a>" : "criminal | bad apple | radical | visa-holder",
+
+"<p2b>" : "individual | insurgent | activist",
+
+"<p2c>" : "brown person",
+
+"<p3a>" : "Syrian | Iranian | Iraqi | Libyan | Somalian | Sudanese | Yemeni",
+
+"<p3b>" : "national | green card holder",
+
+"<p3c>" : "American citizen | American",
+
+"<p3d>" : "Syria | Iran | Iraq | Libya | Somalia | Sudan | Yemen",
+
+"<p4>" : "a refugee | an alien | an individual seeking to enter the United States | a Muslim | an Irishman[.25] | an asylum-seeker | non-native English-speaker",
+
+"<method1>" : "uses unlawful violence and intimidation | occupies federal buildings | wields weapons of mass destruction | bombs abortion clinics | opens fire in a mosque | graffitis hate speech on a mosque | writes in chalk on a sidewalk | records video inside a factory farm | possesses art supplies and harmless bacteria cultures used for antiwar projects about the public health impact of germ warfare programs[.5] | advocates repression and violence | advocates and practices methods of partisan repression and bloodshed | uses violent and intimidating methods",
+
+"<method2>" : "uses unlawful violence and intimidation | wields weapons of mass destruction | advocates repression and violence | advocates and practices methods of partisan repression and bloodshed | uses violent and intimidating methods",
+
+"<target>" : "civilians | Americans | American citizens | white Americans | white people | white women | white men | Christians | American jobs | Westerners | the religious right | the Rust Belt | God-fearing Americans | the state or the public",
+
+"<goal>" : "<g1> <g2> | <g2> | <g3>",
+
+"<g1>" : "the weakening or destruction of | undermining our | threatening our | destroying our",
+
+"<g2>" : "heteronormativity | freedom | liberty | happiness",
+
+"<g3>" : " revenge | a fair playing field | reciprocity | controlling women | a Muslim-free world | political aims | harming our freedom | harming Americans | threatening American public safety | not being tread upon | education | freeing animals | saving the environment | destroying our way of life | burning this motherfucker down | the principles of democracy and equality | American hegemony | equal access | lower taxes | the principles of democracy and equality"
+}
