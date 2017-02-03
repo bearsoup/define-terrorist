@@ -89,12 +89,15 @@ body {
 	float: right;
 }
 
+#hidden {
+	display: none !important;
+}
+
 @media only screen and (max-width: 560px) {
-	/* For mobile phones: */
 	.footer {
 		width: 80%;
 	}
-	
+
  .def-box {
 		width: 80%;
 	}
@@ -102,7 +105,7 @@ body {
 		width: 100%;
 		font-size: 1.5em;
 	}
-	
+
 	.buttons {
 		width: 100%;
 	}

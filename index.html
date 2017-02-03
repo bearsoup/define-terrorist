@@ -1,32 +1,62 @@
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--font awesome-->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <!--css-->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!--p5-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js" integrity="sha256-kOMiAh3njmqfTtvuQaWkt1CORCQGcX6vspmuZL615Zk=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.min.js" integrity="sha256-XJv4F6vIKIxDBK9yFUP0+7QP6z7AHjwNvmAS/ZsNogM=" crossorigin="anonymous"></script>
-  <!--rita-->
-  <script language="javascript" type="text/javascript" src="libraries/rita.min.js"></script>
-  <!--sketch-->
-  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <meta charset="UTF-8">
+    <title>Definition of Terrorist</title>
+    <meta property="og:title" content="Definition of Terrorist" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.defineterrorist.us/" />
+    <meta property="og:image" content="http://www.defineterrorist.us/image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description" content="What is a terrorist? An algorithmic aid for identifying potentially dangerous human beings." />
+    <meta name="description" content="What is a terrorist? An algorithmic aid for identifying potentially dangerous human beings." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--font awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--p5-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js" integrity="sha256-kOMiAh3njmqfTtvuQaWkt1CORCQGcX6vspmuZL615Zk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.min.js" integrity="sha256-XJv4F6vIKIxDBK9yFUP0+7QP6z7AHjwNvmAS/ZsNogM=" crossorigin="anonymous"></script>
+    <!--rita-->
+    <script language="javascript" type="text/javascript" src="libraries/rita.min.js"></script>
+    <!--sketch-->
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <!--google analytics-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-91302470-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
-  <div class="def-box">
-  	<div class="def-text">
-  		<strong>terrorist</strong> <em>/ˈterərəst/ n. </em><span id="definition"> a person who uses unlawful violence and intimidation, especially against civilians, in the pursuit of political aims.</span>
-  	</div>
-  	<div class="buttons">
-  		<a class="button" id="tweet-def" title="Tweet this definition" target="_blank">
-  			<i class="fa fa-twitter"></i>
-  		</a>
-  		<button class="button" id="new-def">What's it <em>really</em> mean?</button>
-  	</div>
-  </div>
-  <div class="footer">A randomly generated definition brought to you by <a href="http://www.simonboas.com">Simon Boas</a> and the <a href="https://www.whitehouse.gov/the-press-office/2017/01/27/executive-order-protecting-nation-foreign-terrorist-entry-united-states">United States of America</a>. Inspired by molleindustria's <a href="http://www.gamedefinitions.com/">Game Definitions</a>. Grammar file <a href="https://github.com/bearsoup/define-terrorist/blob/master/grammar.txt">here</a>. Suggestions? Tweet at <a href="https://twitter.com/intent/tweet?screen_name=defineterror">@defineterror</a>.
+    <div id="hidden"><img src="image.jpg" width="1200" heigh="630" alt="thumb"></div>
+    <div class="def-box">
+        <div class="def-text">
+            <strong>terrorist</strong> <em>/ˈterərəst/ n. </em><span id="definition"> a person who uses unlawful violence and intimidation, especially against civilians, in the pursuit of political aims.</span>
+        </div>
+        <div class="buttons">
+            <a class="button" id="tweet-def" title="Tweet this definition" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <button class="button" id="new-def">What's it <em>really</em> mean?</button>
+        </div>
+    </div>
+    <div class="footer">A randomly generated definition brought to you by <a href="http://www.simonboas.com">Simon Boas</a> and the <a href="https://www.whitehouse.gov/the-press-office/2017/01/27/executive-order-protecting-nation-foreign-terrorist-entry-united-states">United States of America</a>.
+        Inspired by molleindustria's <a href="http://www.gamedefinitions.com/">Game Definitions</a>. Grammar file <a href="https://github.com/bearsoup/define-terrorist/blob/master/grammar.txt">here</a>. Suggestions? Tweet at <a href="https://twitter.com/intent/tweet?screen_name=defineterror">@defineterror</a>.
 </body>
+
 </html>
