@@ -9,7 +9,7 @@
 
 "<p1b>" : "black | white",
 
-"<p2a>" : "criminal | nationalist | bad apple | radical | visa-holder[2] | journalist[1.5]",
+"<p2a>" : "criminal | nationalist | bad apple | radical | visa-holder[2] | journalist[1.5] | non-state actor",
 
 "<p2b>" : "individual | insurgent | activist | enemy of the people[2]",
 
